@@ -1,0 +1,28 @@
+body {
+  background:blue
+}
+h1 {
+  color: white;
+}
+main {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: white;
+  padding: inherit;
+}
+
+nav a {
+  background: black;
+  color: white;
+  padding: 5em;
+  transition: background 2.2s ;
+}
+nav a:hover{
+  background: red;
+}
